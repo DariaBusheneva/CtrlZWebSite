@@ -283,6 +283,15 @@ nav {
   cursor: pointer;
 }
 
+.call-us:link,
+.call-us:visited,
+.call-us:hover,
+.call-us:active,
+.call-us:focus {
+  text-decoration: none;
+  color: inherit; /* Устанавливает цвет текста родителя */
+}
+
 
 /* ------------------------------------------------------------------------------------- */
 

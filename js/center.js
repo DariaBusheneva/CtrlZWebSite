@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const cross1 = document.getElementById('cross1');
   const cross2 = document.getElementById('cross2');
   const cross3 = document.getElementById('cross3');
@@ -67,5 +67,32 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  let startY = 0;
+
+  // Отслеживание события прокрутки мыши
+  window.addEventListener("wheel", function (event) {
+    if (event.deltaY > 0) {
+      window.location.href = "center2.html"; // Замените на ваш путь к следующей странице
+    }
+  });
+
+  // Отслеживание событий сенсорного экрана
+  window.addEventListener("touchstart", function (event) {
+    startY = event.touches[0].clientY;
+  });
+
+  window.addEventListener("touchend", function (event) {
+    let endY = event.changedTouches[0].clientY;
+    if (startY > endY + 50) {
+      // Свайп вниз
+      window.location.href = "center2.html"; // Замените на ваш путь к следующей странице
+    }
+  });
+});
+
+
+
 
 

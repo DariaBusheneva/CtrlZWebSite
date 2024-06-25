@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// карусель
+
 document.addEventListener("DOMContentLoaded", function () {
   const navBtns = document.querySelectorAll(".nav-btn");
   const items = document.querySelectorAll(".carousel-item");
