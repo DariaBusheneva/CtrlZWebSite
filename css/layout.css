@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  background-image: url("../images/gridFullHd.svg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  /* border: 2px magenta solid; */
+}
+
+.logo {
+  align-self: flex-start;
+  display: flex;
+  align-items: flex-end;
+  padding: 4.17% 4.17%;
+}
+
+.ctrlZ {
+  font-family: "Helvetica_bold";
+  font-size: 4em;
+  color: #151515;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 57.5%;
+  height: 62%;
+  gap: 5%;
+  padding-top: 5%;
+}
+
+.nav-btn {
+  text-decoration: none;
+  background-color: rgba(247, 247, 247, 0.1);
+  backdrop-filter: blur(8px);
+  font-family: "Helvetica_regular";
+  color: #151515;
+  font-size: 1.5em;
+  padding: 1% 1% 1% 1%;
+  border: 2px solid #151515;
+}
+
+.nav-btn.active {
+  background-color: #151515;
+  color: #f7f7f7;
+}
+
+.nav-btn.rotated {
+  transform: rotate(-5deg);
+}
+
+/* цифра
+.carousel-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #151515;
+  color: #f7f7f7;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.number-circle {
+  font-family: "Helvetica_regular";
+} */
+
+/* ------------------------------------------------------------------------------------- */
+
+
+/* Страница - о нас */
+
+/* Карусель */
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  /* высота карусели */
+  padding-top: 15%;
+}
+
+.carousel {
+  position: relative;
+  width: 91%;
+  height: 35.5%;
+  margin-top: 6.3%;
+  margin-left: 4.5%;
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px magenta solid; */
+}
+
+.carousel-item {
+  border: 2px solid #151515;
+  position: absolute;
+  width: 39%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 1s, opacity 1s;
+  opacity: 0;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url("../images/firstCentral.png");
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url("../images/secondRight.png");
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url("../images/thirdLeft.png");
+}
+
+.carousel-item:nth-child(4) {
+  background-image: url("../images/fouthLeft.png");
+}
+
+.carousel-item:nth-child(5) {
+  background-image: url("../images/fifthRight.png");
+}
+
+.carousel-item.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.carousel-item.prev {
+  transform: translateX(-100%) scale(0.8) rotateY(-15deg);
+  z-index: 1;
+  opacity: 1;
+}
+
+.carousel-item.next {
+  transform: translateX(100%) scale(0.8) rotateY(15deg);
+  z-index: 1;
+  opacity: 1;
+}
+
+.carousel-controls {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* кнопки для пролистывания */
+
+.carousel-controls .prev,
+.carousel-controls .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-controls .prev {
+  left: 28%;
+  /* Используем проценты для позиционирования */
+}
+
+.carousel-controls .next {
+  right: 28%;
+  /* Используем проценты для позиционирования */
+}
+
+.carousel-controls img {
+  width: 3vw;
+  /* Используем vw для размера */
+  height: auto;
+  /* Сохраняем пропорции */
+}
+
+.carousel-controls button {
+  /* height: 20%;
+  width: 20%; */
+  /* padding: 10%; */
+  cursor: pointer;
+}
+
+/* Текст для карусели */
+.carousel-text {
+  width: 76.7%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  /* bottom: 10%; */
+}
+
+.carousel-number {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #151515;
+  position: absolute;
+  top: -295px;
+  /* Позиция сверху относительно родителя */
+}
+
+.number-circle {
+  font-family: "Helvetica_regular";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f7f7f7;
+  font-size: 5em;
+  bottom: 20%;
+  /* left: 2%; */
+  position: relative;
+}
+
+.carousel-content h1 {
+  width: 50%;
+  background-color: rgba(247, 247, 247, 0.1);
+  backdrop-filter: blur(8px);
+  border: 2px solid #151515;
+  font-family: "Helvetica_bold";
+  font-size: 3em;
+  margin-top: -18.6%;
+  margin-left: 25%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.carousel-content p {
+  background-color: rgba(247, 247, 247, 0.1);
+  backdrop-filter: blur(8px);
+  border: 2px solid #151515;
+  font-family: "Helvetica_regular";
+  font-size: 2em;
+  padding: 1%;
+  margin-top: 17.4%;
+  margin-left: 28.5%;
+  width: 42%;
+  align-items: end;
+}
+
+/* текст call us */
+
+.call-us {
+  position: absolute;
+  left: 42.5%;
+  top: 85%;
+  width: 15.2%;
+  background-color: rgba(247, 247, 247, 0.1);
+  backdrop-filter: blur(8px);
+  border: 2px solid #151515;
+  font-family: "Helvetica_regular";
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none; /* Убирает подчеркивание ссылки */
+  color: inherit; /* Использует цвет текста родителя */
+  padding: 1%;
+  display: inline-block; /* Делает элемент блочным для применения ширины и высоты */
+  cursor: pointer;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+

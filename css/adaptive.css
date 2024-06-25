@@ -1,0 +1,240 @@
+/*1440x900 */
+@media (max-width: 1440px) and (max-height: 900px) {
+  body {
+    background-image: url("../images/grid.svg");
+  }
+
+  .logo {
+    margin-left: 0.2%;
+    margin-top: 0.5%;
+  }
+
+  .ctrl {
+    font-size: 3em;
+  }
+
+  nav {
+    width: 48%;
+    height: 6%;
+    gap: 5%;
+    margin-top: 5%;
+  }
+
+  .nav-btn {
+    font-size: 1.11em;
+    padding: 0.8em 0.8em;
+  }
+}
+
+/* ipad */
+@media (max-width: 768px) and (max-height: 1024px) {
+  body {
+    background-image: url("../images/gridIPad.svg");
+  }
+
+  .logo {
+    padding: 2%;
+  }
+
+  .ctrlZ {
+    font-size: 2em;
+  }
+
+  header {
+    height: 10%;
+    width: 100%;
+    margin: 0%;
+  }
+
+  nav {
+    gap: 3%;
+    width: 60%;
+  }
+
+  .nav-btn {
+    font-size: 0.8em;
+  }
+
+  .carousel-wrapper {
+    height: 70%;
+    padding-top: 5%;
+  }
+
+  .carousel {
+    height: 40%;
+  }
+
+  .carousel-item {
+    width: 100%;
+  }
+
+  .carousel-content h1 {
+    font-size: 2em;
+    width: 90%;
+    margin-left: 5%;
+    padding: 2% 0;
+  }
+
+  .carousel-content p {
+    font-size: 1em;
+    width: 90%;
+    margin-left: 5%;
+    padding: 2% 0;
+  }
+}
+
+/* Tablet адаптив */
+@media (max-width: 768px) and (max-height: 1024px) {
+  body {
+    background-image: url("../images/gridIPad.svg");
+  }
+
+  /* Вертикальная карусель */
+.carousel-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%; /* высота карусели */
+  padding-top: 5%;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 70%; /* высота карусели */
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carousel-item {
+  border: 2px solid #151515;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 1s, opacity 1s;
+  opacity: 0;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url("../images/firstCentral.png");
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url("../images/secondRight.png");
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url("../images/thirdLeft.png");
+}
+
+.carousel-item:nth-child(4) {
+  background-image: url("../images/fouthLeft.png");
+}
+
+.carousel-item:nth-child(5) {
+  background-image: url("../images/fifthRight.png");
+}
+
+.carousel-item.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.carousel-item.prev {
+  transform: translateY(-100%) scale(0.8) rotateX(15deg);
+  z-index: 1;
+  opacity: 1;
+}
+
+.carousel-item.next {
+  transform: translateY(100%) scale(0.8) rotateX(-15deg);
+  z-index: 1;
+  opacity: 1;
+}
+
+.carousel-controls {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-controls button {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.carousel-controls.top {
+  top: 0;
+  justify-content: center;
+}
+
+.carousel-controls.bottom {
+  bottom: 0;
+  justify-content: center;
+}
+
+/* iphone */
+@media (max-width: 414px) and (max-height: 896px) {
+  body {
+    background-image: url("../images/gridiphone.svg");
+    position: fixed;
+  }
+
+  header {
+    height: 17%;
+  }
+
+  .logo {
+    font-size: 0.9em;
+    margin-left: 1%;
+  }
+
+  nav {
+    gap: 3%;
+    /* border: 1px solid #151515; */
+    width: 92%;
+    height: 10%;
+    position: absolute;
+    top: 3.6%;
+    left: 4%;
+    justify-content: space-around;
+  }
+
+  .nav-btn {
+    width: 20%;
+    border: 1px solid #151515;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 0.5em 0.5em 0.6em 0.5em;
+  }
+
+  .carousel {
+    height: 50%;
+  }
+  .carousel-item {
+    width: 90%;
+  }
+  .carousel-content h1 {
+    font-size: 3em;
+    width: 80%;
+    margin-left: 10%;
+    padding: 2% 0;
+  }
+  .carousel-content p {
+    font-size: 1.5em;
+    width: 80%;
+    margin-left: 10%;
+    padding: 2% 0;
+  }
+}
+}

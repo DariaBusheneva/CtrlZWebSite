@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Helvetica_bold";
+  src: url(../font/helvetica_bold.otf);
+}
+
+@font-face {
+  font-family: "Helvetica_boldlique";
+  src: url(../font/helvetica_boldoblique.otf);
+}
+
+@font-face {
+  font-family: "Helvetica_cyr_boldolique";
+  src: url(../font/helvetica_cyr_boldoblique.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica_cyr_lique";
+  src: url(../font/helvetica_cyr_oblique.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica_light";
+  src: url(../font/helvetica_light.otf);
+}
+
+@font-face {
+  font-family: "Helvetica_light_oblique";
+  src: url(../font/helvetica_lightoblique.otf);
+}
+
+@font-face {
+  font-family: "Helvetica_oblique";
+  src: url(../font/helvetica_oblique.otf);
+}
+
+@font-face {
+  font-family: "Helvetica_regular";
+  src: url(../font/helvetica_regular.otf);
+}
