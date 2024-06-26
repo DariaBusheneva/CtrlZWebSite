@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
       number: "3",
       title: "ЗАПИСЬ НА ПРИЕМ В ЦЕНТР",
       description:
-        "ДЛЯ ПРОВЕДЕНИЯ ПРОЦЕДУРЫ ОТМЕНЫ НУЖНО ЗАПИСАТЬСЯ НА ПРИЁМ В ЦЕНТР CTRL Z",
+        "ДЛЯ ПРОВЕДЕНИЯ ПРОЦЕДУРЫ ОТМЕНЫ НУЖНО ЗАПИСАТЬСЯ НА ПРИЕМ В ЦЕНТР CTRL Z",
     },
     {
       number: "4",
