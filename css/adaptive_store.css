@@ -1,0 +1,16 @@
+@media (max-width: 768px) and (max-height: 1024px) {
+  .product {
+    position: relative;
+    width: 32vw;
+    height: 32.5vw;
+    border: 2px solid #000;
+    background-color: #ccc;
+    overflow: hidden;
+  }
+
+  .close-btn {
+    background: url(../images/roundWithCross.svg) center / contain no-repeat;
+    width: 4vw;
+    height: 4vw;
+  }
+}

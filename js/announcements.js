@@ -29,14 +29,14 @@ document.addEventListener("DOMContentLoaded", function () {
     { number: "1", title: "КИНОПОКАЗ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "КИНОПОКАЗ", bottomDescription: "25.05 19.00" },
     { number: "1", title: "КИНОПОКАЗ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "КИНОПОКАЗ", bottomDescription: "25.05 19.00" },
     { number: "1", title: "КИНОПОКАЗ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "КИНОПОКАЗ", bottomDescription: "25.05 19.00" },
-    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
-    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
-    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
-    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
-    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
-    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
-    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
-    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" }
+    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
+    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
+    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
+    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
+    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
+    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
+    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
+    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" }
   ];
 
   function updateSlider() {
@@ -63,6 +63,28 @@ document.addEventListener("DOMContentLoaded", function () {
       h1Element.style.width = "50%";
     }
 
+    if (window.innerWidth <= 1440 && window.innerHeight <= 900) {
+      // Обновление ширины в зависимости от значения number
+      if (carouselData[currentIndex].number === "2") {
+        h1Element.style.width = "80%";
+      } else if (carouselData[currentIndex].number === "3") {
+        h1Element.style.width = "104%";
+      } else {
+        h1Element.style.width = "50%";
+      }
+    }
+
+    if (window.innerWidth <= 1366 && window.innerHeight <= 768) {
+      // Обновление ширины в зависимости от значения number
+      if (carouselData[currentIndex].number === "2") {
+        h1Element.style.width = "72%";
+      } else if (carouselData[currentIndex].number === "3") {
+        h1Element.style.width = "94%";
+      } else {
+        h1Element.style.width = "50%";
+      }
+    }
+
     // Обновление параметров bottom-overlay в зависимости от значения number
     const bottomOverlay = document.querySelector(".bottom-overlay");
     if (carouselData[currentIndex].number === "1") {
@@ -75,6 +97,20 @@ document.addEventListener("DOMContentLoaded", function () {
       bottomOverlay.style.width = "31vw";
       bottomOverlay.style.left = "51%";
       bottomOverlay.style.bottom = "23%";
+    }
+
+    if (window.innerWidth <= 1440 && window.innerHeight <= 900) {
+      if (carouselData[currentIndex].number === "1") {
+        bottomOverlay.style.width = "23vw";
+        bottomOverlay.style.left = "46%";
+      } else if (carouselData[currentIndex].number === "2") {
+        bottomOverlay.style.width = "28vw";
+        bottomOverlay.style.left = "48%";
+      } else if (carouselData[currentIndex].number === "3") {
+        bottomOverlay.style.width = "31vw";
+        bottomOverlay.style.left = "51%";
+        bottomOverlay.style.bottom = "23%";
+      }
     }
 
     // Обновление нижнего блока

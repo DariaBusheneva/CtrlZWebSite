@@ -116,6 +116,16 @@ document.addEventListener("DOMContentLoaded", function () {
       pElement.style.marginLeft = "31%";
     }
 
+    if (window.innerWidth <= 768 && window.innerHeight <= 1024) {
+      if (carouselData[currentIndex].number === "1") {
+        h1Element.style.width = "80%";
+        h1Element.style.marginLeft = "10%";
+        pElement.style.marginTop = "27%";
+        pElement.style.width = "64%";
+        pElement.style.marginLeft = "18%";
+      }
+    }
+
   }
 
 

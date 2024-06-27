@@ -222,8 +222,8 @@ nav {
 
 .carousel-content h1 {
   width: 50%;
-  background-color: rgba(247, 247, 247, 0.1);
-  backdrop-filter: blur(8px);
+  /* background-color: rgba(247, 247, 247, 0.1); */
+  backdrop-filter: blur(6px);
   border: 2px solid #151515;
   font-family: "Helvetica_bold";
   font-size: 3em;
@@ -234,8 +234,8 @@ nav {
 }
 
 .carousel-content p {
-  background-color: rgba(247, 247, 247, 0.1);
-  backdrop-filter: blur(8px);
+  /* background-color: rgba(247, 247, 247, 0.1); */
+  backdrop-filter: blur(6px);
   border: 2px solid #151515;
   font-family: "Helvetica_regular";
   font-size: 2em;
