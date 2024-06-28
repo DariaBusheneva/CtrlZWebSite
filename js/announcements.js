@@ -29,16 +29,15 @@ document.addEventListener("DOMContentLoaded", function () {
     { number: "1", title: "КИНОПОКАЗ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "КИНОПОКАЗ", bottomDescription: "25.05 19.00" },
     { number: "1", title: "КИНОПОКАЗ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "КИНОПОКАЗ", bottomDescription: "25.05 19.00" },
     { number: "1", title: "КИНОПОКАЗ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты. На выбор будут три кинопоказа: ужасы, мультфильмы и комедии.", bottomTitle: "КИНОПОКАЗ", bottomDescription: "25.05 19.00" },
-    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
-    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
-    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
-    { number: "2", title: "МАСТЕР-КЛАСС", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
-    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
-    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
-    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
-    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "CTRL Z приглашает вас на уникальный кинопоказ, где каждый зритель может стать режиссером и менять неудачные сюжетные повороты.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" }
-  ];
-
+    { number: "2", title: "МАСТЕР-КЛАСС", description: "Вечер ностальгии не о том, чтобы исправлять прошлые ошибки, а скорее о том, чтобы ценить моменты. Мы используем технологии, чтобы оживить воспоминания.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
+    { number: "2", title: "МАСТЕР-КЛАСС", description: "Вечер ностальгии не о том, чтобы исправлять прошлые ошибки, а скорее о том, чтобы ценить моменты. Мы используем технологии, чтобы оживить воспоминания.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
+    { number: "2", title: "МАСТЕР-КЛАСС", description: "Вечер ностальгии не о том, чтобы исправлять прошлые ошибки, а скорее о том, чтобы ценить моменты. Мы используем технологии, чтобы оживить воспоминания.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
+    { number: "2", title: "МАСТЕР-КЛАСС", description: "Вечер ностальгии не о том, чтобы исправлять прошлые ошибки, а скорее о том, чтобы ценить моменты. Мы используем технологии, чтобы оживить воспоминания.", bottomTitle: "МАСТЕР-КЛАСС", bottomDescription: "28.05 20.00" },
+    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "Мастер-класс по рисованию, на котором можно не бояться испортить белый лист бумаги. Это уникальное событие, где каждый участник может открыть в себе творческий потенциал без страха сделать ошибку.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
+    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "Мастер-класс по рисованию, на котором можно не бояться испортить белый лист бумаги. Это уникальное событие, где каждый участник может открыть в себе творческий потенциал без страха сделать ошибку.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
+    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "Мастер-класс по рисованию, на котором можно не бояться испортить белый лист бумаги. Это уникальное событие, где каждый участник может открыть в себе творческий потенциал без страха сделать ошибку.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" },
+    { number: "3", title: "ВЕЧЕР НОСТАЛЬГИИ", description: "Мастер-класс по рисованию, на котором можно не бояться испортить белый лист бумаги. Это уникальное событие, где каждый участник может открыть в себе творческий потенциал без страха сделать ошибку.", bottomTitle: "ВЕЧЕР НОСТАЛЬГИИ", bottomDescription: "30.05 18.00" }
+  ]
   function updateSlider() {
     sliderItems.forEach((item, index) => {
       item.classList.remove("active");
@@ -55,24 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     pElement.innerHTML = carouselData[currentIndex].description;
 
     // Обновление ширины в зависимости от значения number
-    if (carouselData[currentIndex].number === "2") {
-      h1Element.style.width = "72%";
-    } else if (carouselData[currentIndex].number === "3") {
-      h1Element.style.width = "95%";
-    } else {
-      h1Element.style.width = "50%";
-    }
-
-    if (window.innerWidth <= 1440 && window.innerHeight <= 900) {
-      // Обновление ширины в зависимости от значения number
-      if (carouselData[currentIndex].number === "2") {
-        h1Element.style.width = "80%";
-      } else if (carouselData[currentIndex].number === "3") {
-        h1Element.style.width = "104%";
-      } else {
-        h1Element.style.width = "50%";
-      }
-    }
+    
 
     if (window.innerWidth <= 1366 && window.innerHeight <= 768) {
       // Обновление ширины в зависимости от значения number
@@ -85,21 +67,55 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
 
-    // Обновление параметров bottom-overlay в зависимости от значения number
-    const bottomOverlay = document.querySelector(".bottom-overlay");
-    if (carouselData[currentIndex].number === "1") {
-      bottomOverlay.style.width = "20vw";
-      bottomOverlay.style.left = "46%";
-    } else if (carouselData[currentIndex].number === "2") {
-      bottomOverlay.style.width = "24vw";
-      bottomOverlay.style.left = "44%";
-    } else if (carouselData[currentIndex].number === "3") {
-      bottomOverlay.style.width = "31vw";
-      bottomOverlay.style.left = "51%";
-      bottomOverlay.style.bottom = "23%";
+    else if (window.innerWidth === 1440 && window.innerHeight === 780) {
+      if (carouselData[currentIndex].number === "2") {
+        h1Element.style.width = "69%";
+      } else if (carouselData[currentIndex].number === "3") {
+        h1Element.style.width = "90%";
+      } else {
+        h1Element.style.width = "50%";
+      }
     }
 
-    if (window.innerWidth <= 1440 && window.innerHeight <= 900) {
+    else if (window.innerWidth <= 1440 && window.innerHeight <= 900) {
+      // Обновление ширины в зависимости от значения number
+      if (carouselData[currentIndex].number === "2") {
+        h1Element.style.width = "80%";
+      } else if (carouselData[currentIndex].number === "3") {
+        h1Element.style.width = "104%";
+      } else {
+        h1Element.style.width = "50%";
+      }
+    }
+    else if (window.innerWidth <= 1920 && window.innerHeight <= 1080) {
+    if (carouselData[currentIndex].number === "2") {
+      h1Element.style.width = "70%";
+    } else if (carouselData[currentIndex].number === "3") {
+      h1Element.style.width = "91%";
+    } else {
+      h1Element.style.width = "50%";
+    }}
+
+    
+
+    // Обновление параметров bottom-overlay в зависимости от значения number
+    const bottomOverlay = document.querySelector(".bottom-overlay");
+    if (window.innerWidth <= 768 && window.innerHeight <= 1024) {
+      if (carouselData[currentIndex].number === "1") {
+        bottomOverlay.style.width = "24vw";
+        bottomOverlay.style.left = "57%";
+        bottomOverlay.style.bottom = "41%";
+      } else if (carouselData[currentIndex].number === "2") {
+        bottomOverlay.style.width = "31vw";
+        bottomOverlay.style.left = "58%";
+        bottomOverlay.style.bottom = "41%";
+      } else if (carouselData[currentIndex].number === "3") {
+        bottomOverlay.style.width = "39vw";
+        bottomOverlay.style.left = "60%";
+        bottomOverlay.style.bottom = "41%";
+      }
+    }
+    else if (window.innerWidth <= 1440 && window.innerHeight <= 900) {
       if (carouselData[currentIndex].number === "1") {
         bottomOverlay.style.width = "23vw";
         bottomOverlay.style.left = "46%";
@@ -109,7 +125,34 @@ document.addEventListener("DOMContentLoaded", function () {
       } else if (carouselData[currentIndex].number === "3") {
         bottomOverlay.style.width = "31vw";
         bottomOverlay.style.left = "51%";
-        bottomOverlay.style.bottom = "23%";
+        bottomOverlay.style.bottom = "24%";
+      }
+    }
+    else if (window.innerWidth <= 1920 && window.innerHeight <= 1080) {
+    if (carouselData[currentIndex].number === "1") {
+      bottomOverlay.style.width = "20vw";
+      bottomOverlay.style.left = "46%";
+      bottomOverlay.style.bottom = "21%";
+    } else if (carouselData[currentIndex].number === "2") {
+      bottomOverlay.style.width = "24vw";
+      bottomOverlay.style.left = "44%";
+      bottomOverlay.style.bottom = "21%";
+    } else if (carouselData[currentIndex].number === "3") {
+      bottomOverlay.style.width = "31vw";
+      bottomOverlay.style.left = "51%";
+      bottomOverlay.style.bottom = "21%";
+    }}
+
+    
+
+    if (window.innerWidth <= 768 && window.innerHeight <= 1024) {
+      // Обновление ширины в зависимости от значения number
+      if (carouselData[currentIndex].number === "2") {
+        h1Element.style.width = "61%";
+      } else if (carouselData[currentIndex].number === "3") {
+        h1Element.style.width = "80%";
+      } else {
+        h1Element.style.width = "50%";
       }
     }
 

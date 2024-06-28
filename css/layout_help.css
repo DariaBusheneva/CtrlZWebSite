@@ -15,7 +15,12 @@
     backdrop-filter: blur(4px);
     /* filter: blur(6px); */
     /* z-index: 1; */
-  }
+    cursor: url('../images/cursor.svg') 16 16, auto !important;
+}
+
+a, button, input, select, textarea, div{
+  cursor: url('../images/cursor.svg') 16 16, auto !important;
+}
 
 .email_form {
     width: 80%; /* Адаптивная ширина */
