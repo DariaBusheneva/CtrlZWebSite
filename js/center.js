@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const text2 = document.getElementById('text2');
   const text3 = document.getElementById('text3');
 
-  // Установите начальное состояние для всех текстовых блоков
+
   text1.style.display = 'none';
   text2.style.display = 'none';
   text3.style.display = 'none';
@@ -71,14 +71,14 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   let startY = 0;
 
-  // Отслеживание события прокрутки мыши
+
   window.addEventListener("wheel", function (event) {
     if (event.deltaY > 0) {
-      window.location.href = "center2.html"; // Замените на ваш путь к следующей странице
+      window.location.href = "center2.html"; 
     }
   });
 
-  // Отслеживание событий сенсорного экрана
+
   window.addEventListener("touchstart", function (event) {
     startY = event.touches[0].clientY;
   });
@@ -86,8 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("touchend", function (event) {
     let endY = event.changedTouches[0].clientY;
     if (startY > endY + 50) {
-      // Свайп вниз
-      window.location.href = "center2.html"; // Замените на ваш путь к следующей странице
+      window.location.href = "center2.html"; 
     }
   });
 });

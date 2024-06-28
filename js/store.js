@@ -25,13 +25,11 @@ document.addEventListener("DOMContentLoaded", function () {
       if (product.classList.contains('product-blurred')) {
         closeBtn.classList.remove('rotate-back');
         closeBtn.classList.add('rotate');
-        overlay.style.opacity = '1'; // Показываем overlay
-        // overlay.style.backgroundColor = 'rgba(255, 255, 255, 0.8)'; // Убедимся, что фон остается одинаковым
+        overlay.style.opacity = '1'; 
       } else {
         closeBtn.classList.remove('rotate');
         closeBtn.classList.add('rotate-back');
-        overlay.style.opacity = '0'; // Скрываем overlay
-        // overlay.style.backgroundColor = 'rgba(255, 255, 255, 0.8)'; // Убедимся, что фон остается одинаковым
+        overlay.style.opacity = '0'; 
       }
     });
   });

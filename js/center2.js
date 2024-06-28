@@ -17,14 +17,14 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     let startY = 0;
 
-    // Отслеживание события прокрутки мыши
+
     window.addEventListener("wheel", function (event) {
         if (event.deltaY < 0) {
-            window.location.href = "center.html"; // Замените на ваш путь к предыдущей странице
+            window.location.href = "center.html"; 
         }
     });
 
-    // Отслеживание событий сенсорного экрана
+
     window.addEventListener("touchstart", function (event) {
         startY = event.touches[0].clientY;
     });
@@ -32,8 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("touchend", function (event) {
         let endY = event.changedTouches[0].clientY;
         if (startY < endY - 50) {
-            // Свайп вверх
-            window.location.href = "center.html"; // Замените на ваш путь к предыдущей странице
+            window.location.href = "center.html"; 
         }
     });
 });

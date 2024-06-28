@@ -1,6 +1,5 @@
 .main-container {
     margin-top: 1%;
-    /* margin-left: 20%; */
 }
 
 .centered-flexbox {
@@ -10,7 +9,6 @@
     justify-content: center;
     width: 60%;
     max-width: 63%;
-    /* border: 2px solid red; */
     padding: 20px;
     box-sizing: border-box;
     margin-left: 20%;
@@ -29,7 +27,6 @@
     width: 37%;
     padding-bottom: 33.25%;
     border: 3px solid black;
-    /* 16:9 aspect ratio */
     background-size: cover;
     background-position: center;
     margin-top: 3%;
@@ -52,9 +49,7 @@
     top: 50%;
     left: 50%;
     width: 239%;
-    /* height: 45%; */
     transform: translate(-50%, -50%);
-    /* background-color: rgba(255, 255, 255, 0.4); */
     backdrop-filter: blur(4px);
     padding: 20px;
     border: 2px solid #000;
@@ -89,36 +84,10 @@
     font-family: "Helvetica_regular";
     font-size: 1.5em;
     text-align: center;
-    text-decoration: none; /* Убирает подчеркивание ссылки */
-    color: inherit; /* Использует цвет текста родителя */
+    text-decoration: none; 
+    color: inherit; 
     padding: 1%;
-    display: inline-block; /* Делает элемент блочным для применения ширины и высоты */
+    display: inline-block; 
     cursor: pointer;
   }
 
-/* @media (max-width: 768px) {
-    .centered-flexbox {
-        width: 95%;
-    }
-
-    .top-section, .bottom-section {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .top-section span, .bottom-section span {
-        margin-bottom: 10px;
-    }
-
-    .overlay-text {
-        font-size: 1em;
-        padding: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .overlay-text {
-        font-size: 0.8em;
-        padding: 5px;
-    }
-} */

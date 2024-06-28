@@ -94,9 +94,7 @@
     top: 50%;
     left: 50%;
     width: 144%;
-    /* height: 45%; */
     transform: translate(-50%, -50%);
-    /* background-color: rgba(255, 255, 255, 0.4); */
     backdrop-filter: blur(4px);
     padding: 20px;
     border: 2px solid #000;
@@ -132,7 +130,6 @@
 @media (max-width: 414px) and (max-height: 896px) {
   nav {
     gap: 3%;
-    /* border: 1px solid #151515; */
     width: 92%;
     height: 10%;
     position: absolute;
@@ -149,9 +146,7 @@
     top: 50%;
     left: 50%;
     width: 128%;
-    /* height: 45%; */
     transform: translate(-50%, -50%);
-    /* background-color: rgba(255, 255, 255, 0.4); */
     backdrop-filter: blur(4px);
     padding: 10px;
     border: 1px solid #000;

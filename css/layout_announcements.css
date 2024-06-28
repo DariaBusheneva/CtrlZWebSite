@@ -75,7 +75,6 @@
     justify-content: center;
     color: #f7f7f7;
     font-size: 4.5vw;
-    /* Используем vw для адаптивности */
     position: relative;
 }
 
@@ -105,7 +104,6 @@
     width: 20vw;
     left: 46%;
     transform: translateX(-50%);
-    /* background: rgba(247, 247, 247, 0.8); */
     backdrop-filter: blur(4px);
     border: 2px solid #000;
     display: flex;
@@ -133,7 +131,6 @@
     top: 160%;
     transform: translateX(-50%);
     width: 16.2vh;
-    /* background-color: rgba(247, 247, 247, 0.1); */
     backdrop-filter: blur(8px);
     border: 2px solid #151515;
     font-family: "Helvetica_regular";

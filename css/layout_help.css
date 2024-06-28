@@ -13,8 +13,6 @@
     width: 100vw;
     overflow: hidden;
     backdrop-filter: blur(4px);
-    /* filter: blur(6px); */
-    /* z-index: 1; */
     cursor: url('../images/cursor.svg') 16 16, auto !important;
 }
 
@@ -23,8 +21,8 @@ a, button, input, select, textarea, div{
 }
 
 .email_form {
-    width: 80%; /* Адаптивная ширина */
-    max-width: 400px; /* Максимальная ширина */
+    width: 80%; 
+    max-width: 400px; 
     padding: 10px;
     border: 2px solid #000;
     font-size: 1.5em;
@@ -32,8 +30,8 @@ a, button, input, select, textarea, div{
 }
 
 .text_input {
-    width: 80%; /* Адаптивная ширина */
-    max-width: 400px; /* Максимальная ширина */
+    width: 80%; 
+    max-width: 400px; 
     padding: 10px;
     border: 2px solid #000;
     font-size: 1.5em;
@@ -41,8 +39,8 @@ a, button, input, select, textarea, div{
 }
 
 .submit-btn {
-    width: 80%; /* Адаптивная ширина */
-    max-width: 400px; /* Максимальная ширина */
+    width: 80%; 
+    max-width: 400px; 
     padding: 10px;
     border: 2px solid #000;
     background-color: transparent;
@@ -51,26 +49,10 @@ a, button, input, select, textarea, div{
     margin-top: 9%;
 }
 
-/* .close_btn_help {
-    background: url(../images/roundWithCross.svg) center / contain no-repeat;
-    width: 2.5vw;
-    height: 2.5vw;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    user-select: none;
-    outline: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    z-index: 2;
-} */
+
 main {
     position: relative;
-    /* width: 100%;
-    height: 100%; */
-    /* filter: blur(6px); */
     z-index: 2;
-
 }
 
 .grid-container {
@@ -81,7 +63,6 @@ main {
     margin-top: 16%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* gap: 20px; */
     align-items: baseline;
 }
 
@@ -92,21 +73,14 @@ main {
 }
 
 .image-container {
-    /* position: absolute; */
-    /* left: 113%; */
     display: flex;
-    /* justify-content: unset; */
-    /* align-items: center; */
     margin-left: 51%;
-    /* margin-top: -24%; */
     transform: rotate(45deg);
 }
 
 .text_input, .submit-btn {
-    width: 100%; /* Полная ширина родительского контейнера */
-    /* max-width: 400px; */
-    /* padding: 10px; */
-    margin-bottom: 10px; /* Интервал между элементами формы */
+    width: 100%;
+    margin-bottom: 10px; 
     box-sizing: border-box;
 }
 
@@ -115,8 +89,8 @@ main {
     width: 2.5vw;
     height: 2.5vw;
     cursor: pointer;
-    user-select: none; /* Убирает выделение текста */
-    outline: none; /* Убирает рамку при фокусе */
+    user-select: none;
+    outline: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     z-index: 2;
 }

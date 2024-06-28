@@ -80,14 +80,14 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
-    // Обновление текста и номера
+
     carouselNumber.textContent = carouselData[currentIndex].number;
     const h1Element = carouselContent.querySelector("h1");
     h1Element.textContent = carouselData[currentIndex].title;
     const pElement = carouselContent.querySelector("p");
     pElement.innerHTML = carouselData[currentIndex].description;
 
-    // Изменение ширины блока h1 для number 2
+
     if (carouselData[currentIndex].number === "2") {
       h1Element.style.width = "30%";
       h1Element.style.marginLeft = "36%";
@@ -108,7 +108,6 @@ document.addEventListener("DOMContentLoaded", function () {
       pElement.style.width = "50%";
       pElement.style.marginLeft = "25%";
       pElement.style.padding = "1%";
-      // pElement.style.marginTop = "15%";
     }
 
     if (carouselData[currentIndex].number === "3") {
@@ -202,10 +201,6 @@ document.addEventListener("DOMContentLoaded", function () {
     else if (window.innerWidth === 1440 && window.innerHeight === 780) {
       if (carouselData[currentIndex].number === "2") {
         h1Element.style.marginTop = "-17.6%";
-        // h1Element.style.marginLeft = "10%";
-        // pElement.style.marginTop = "34%";
-        // pElement.style.width = "12%";
-        // pElement.style.marginLeft = "45%";
       }
     }
 

@@ -1,249 +1,220 @@
 body {
-    overflow-y: auto;
-    min-height: 100vh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    /* Оставляем скрытие горизонтальной прокрутки */
-    background-repeat: repeat-y;
+  overflow-y: auto;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-repeat: repeat-y;
 }
 
 /* Cтраница - магазин */
 
-
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3.7%;
-    padding-right: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.7%;
+  padding-right: 2%;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4%;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4%;
+  justify-items: center;
 }
 
 .product {
-    position: relative;
-    width: 26vw;
-    height: 22.5vw;
-    border: 2px solid #000;
-    background-color: #ccc;
-    overflow: hidden;
+  position: relative;
+  width: 26vw;
+  height: 22.5vw;
+  border: 2px solid #000;
+  background-color: #ccc;
+  overflow: hidden;
 }
 
 /* вещички */
 
 .product-img {
-    /* background-size: cover; */
-    transition: filter 0.8s;
+  transition: filter 0.8s;
 }
 
 .jacket {
-    background: url(../images/jacket.png) center / contain no-repeat;
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    left: 11%;
-    top: 6%;
+  background: url(../images/jacket.png) center / contain no-repeat;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 11%;
+  top: 6%;
 }
 
 .gloves {
-    background: url(../images/gloves.png) center / contain no-repeat;
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    left: 11%;
-    top: 6%;
+  background: url(../images/gloves.png) center / contain no-repeat;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 11%;
+  top: 6%;
 }
 
 .book {
-    background: url(../images/book.png) center / contain no-repeat;
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    left: 11%;
-    top: 6%;
+  background: url(../images/book.png) center / contain no-repeat;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 11%;
+  top: 6%;
 }
 
 .eraser {
-    background: url(../images/eraser.png) center / contain no-repeat;
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    left: 11%;
-    top: 6%;
+  background: url(../images/eraser.png) center / contain no-repeat;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 11%;
+  top: 6%;
 }
 
 .posters {
-    background: url(../images/postersForSale.png) center / contain no-repeat;
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    left: 11%;
-    top: 6%;
+  background: url(../images/postersForSale.png) center / contain no-repeat;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 11%;
+  top: 6%;
 }
 
 .poster {
-    background: url(../images/posterForSale.png) center / contain no-repeat;
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    left: 11%;
-    top: 6%;
+  background: url(../images/posterForSale.png) center / contain no-repeat;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 11%;
+  top: 6%;
 }
 
 .prices {
-    font-family: "Helvetica_bold";
-    font-size: 4em;
-    color: #151515;
+  font-family: "Helvetica_bold";
+  font-size: 4em;
+  color: #151515;
 }
 
 .product-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto; /* Обновлено */
-    /* background-color: rgba(255, 255, 255, 0); */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.8s, background-color 0.8s;
-    /* Добавлено: плавный переход для фонового цвета */
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.8s, background-color 0.8s;
+  z-index: 1;
 }
 
 .item-name {
-    font-family: "Helvetica_bold";
-    font-size: 2vw;
-    color: #151515;
-    margin-bottom: 0.5vw;
+  font-family: "Helvetica_bold";
+  font-size: 2vw;
+  color: #151515;
+  margin-bottom: 0.5vw;
 }
 
 .item-price {
-    font-family: "Helvetica_regular";
-    font-size: 1.5vw;
-    color: #151515;
-    margin-bottom: 1vw;
+  font-family: "Helvetica_regular";
+  font-size: 1.5vw;
+  color: #151515;
+  margin-bottom: 1vw;
 }
 
-/* .product-overlay p {
-    margin: 0;
-    margin-top: 71%;
-    font-family: "Helvetica_bold";
-    font-size: 1.7vw;
-    color: #151515;
-} */
-
 .buy-btn {
-    display: inline-block; /* Делает элемент блочным для применения ширины и высоты */
-    width: 7vw;
-    height: 3vw;
-    margin-top: 71%;
-    margin-left: 20%;
-    padding: 1%;
-    border: 2px solid #000;
-    background-color: transparent;
-    cursor: pointer;
-    font-family: "Helvetica_regular";
-    color: #151515;
-    font-size: 1.5vw;
-    /* text-align: center; */
-    text-decoration: none; /* Убирает подчеркивание ссылки */
-    line-height: 2vw; /* Центрует текст по вертикали */
+  display: inline-block;
+  width: 7vw;
+  height: 3vw;
+  margin-top: 71%;
+  margin-left: 20%;
+  padding: 1%;
+  border: 2px solid #000;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "Helvetica_regular";
+  color: #151515;
+  font-size: 1.5vw;
+  text-decoration: none;
+  line-height: 2vw;
 }
 
 .priceandtitle {
-    margin-top: 67%;
+  margin-top: 67%;
 }
 
 /* кнопка включения блюра */
 
 .close-btn {
-    background: url(../images/roundWithCross.svg) center / contain no-repeat;
-    width: 2.5vw;
-    height: 2.5vw;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    user-select: none;
-    /* Убирает выделение текста */
-    outline: none;
-    /* Убирает рамку при фокусе */
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    z-index: 2;
+  background: url(../images/roundWithCross.svg) center / contain no-repeat;
+  width: 2.5vw;
+  height: 2.5vw;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  z-index: 2;
 }
 
 .rotate {
-    animation: rotateAnimation 0.3s forwards;
+  animation: rotateAnimation 0.3s forwards;
 }
 
 @keyframes rotateAnimation {
-    from {
-        transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
 
-    to {
-        transform: rotate(45deg);
-    }
+  to {
+    transform: rotate(45deg);
+  }
 }
 
 .rotate-back {
-    animation: rotateBackAnimation 0.3s forwards;
+  animation: rotateBackAnimation 0.3s forwards;
 }
 
 @keyframes rotateBackAnimation {
-    from {
-        transform: rotate(45deg);
-    }
+  from {
+    transform: rotate(45deg);
+  }
 
-    to {
-        transform: rotate(0deg);
-    }
+  to {
+    transform: rotate(0deg);
+  }
 }
 
-
-/* .product-blurred {
-    position: relative;
-  } */
-
-/* .product-blurred::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(204, 204, 204, 0.8);
-    backdrop-filter: blur(5px);
-  } */
-
 .product-blurred .product-img {
-    filter: blur(6px);
+  filter: blur(6px);
 }
 
 .product-blurred .product-overlay {
-    /* opacity: 1; */
-    /* background-color: rgba(204, 204, 204, 0.8); */
-    z-index: 1;
+  z-index: 1;
 }
 
-/* @media (max-width: 600px) {
-    .container {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  
-    .product {
-      width: 150px; 
-      height: 150px;
-    }
-  } */
+#firstLeft {
+  margin-left: -3vw;
+}
+
+#secondLeft {
+  margin-left: -2.3vw;
+}
+
+#thirdLeft {
+  margin-left: -2.8vw;
+}
+
+#fouthLeft {
+  margin-left: -1vw;
+}

@@ -20,9 +20,8 @@
     align-items: center;
     padding-top: 8.7%;
     padding-right: 2%;
-    flex-wrap: wrap; /* Добавлено для обеспечения корректного отображения элементов */
+    flex-wrap: wrap; 
     height: auto;
-    /* overflow-y: auto; */
   }
 
   html,
@@ -31,7 +30,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: auto; /* Добавлено для обеспечения вертикальной прокрутки */
+    overflow-y: auto; 
   }
 
   .buy-btn {
@@ -47,7 +46,6 @@
     font-family: "Helvetica_regular";
     color: #151515;
     font-size: 2vw;
-    /* text-align: center; */
     text-decoration: none;
     line-height: 2vw;
   }

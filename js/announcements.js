@@ -46,18 +46,17 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
-    // Обновление текста и номера
+
     carouselNumber.textContent = carouselData[currentIndex].number;
     const h1Element = carouselContent.querySelector("h1");
     h1Element.textContent = carouselData[currentIndex].title;
     const pElement = carouselContent.querySelector("p");
     pElement.innerHTML = carouselData[currentIndex].description;
 
-    // Обновление ширины в зависимости от значения number
+
     
 
     if (window.innerWidth <= 1366 && window.innerHeight <= 768) {
-      // Обновление ширины в зависимости от значения number
       if (carouselData[currentIndex].number === "2") {
         h1Element.style.width = "72%";
       } else if (carouselData[currentIndex].number === "3") {
@@ -78,7 +77,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     else if (window.innerWidth <= 1440 && window.innerHeight <= 900) {
-      // Обновление ширины в зависимости от значения number
       if (carouselData[currentIndex].number === "2") {
         h1Element.style.width = "80%";
       } else if (carouselData[currentIndex].number === "3") {
@@ -98,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
 
-    // Обновление параметров bottom-overlay в зависимости от значения number
+ 
     const bottomOverlay = document.querySelector(".bottom-overlay");
     if (window.innerWidth <= 768 && window.innerHeight <= 1024) {
       if (carouselData[currentIndex].number === "1") {
@@ -146,7 +144,6 @@ document.addEventListener("DOMContentLoaded", function () {
     
 
     if (window.innerWidth <= 768 && window.innerHeight <= 1024) {
-      // Обновление ширины в зависимости от значения number
       if (carouselData[currentIndex].number === "2") {
         h1Element.style.width = "61%";
       } else if (carouselData[currentIndex].number === "3") {
@@ -156,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
 
-    // Обновление нижнего блока
+
     bottomContentTitle.textContent = carouselData[currentIndex].bottomTitle;
     bottomContentDescription.textContent = carouselData[currentIndex].bottomDescription;
   }
@@ -183,139 +180,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-
-
-
-
-
-
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   const navBtns = document.querySelectorAll(".nav-btn");
-//   const items = document.querySelectorAll(".carousel-item2");
-//   const nextButton = document.querySelector(".next2");
-//   const prevButton = document.querySelector(".prev2");
-//   const carouselNumber = document.querySelector(".number-circle2");
-//   const carouselContent = document.querySelector(".carousel-content2");
-//   let currentIndex = 0;
-
-//   const carouselData = [
-//     {
-//       number: "1",
-//       title: "КИНОПОКАЗ",
-//       description: "КИНОПОКАЗ",
-//     },
-//     {
-//       number: "1",
-//       title: "КИНОПОКАЗ",
-//       description: "КИНОПОКАЗ",
-//     },
-//     {
-//       number: "1",
-//       title: "КИНОПОКАЗ",
-//       description:
-//         "КИНОПОКАЗ",
-//     },
-//     {
-//       number: "2",
-//       title: "МАСТЕР-КЛАСС",
-//       description:
-//         "МАСТЕР-КЛАСС",
-//     },
-//     {
-//       number: "2",
-//       title: "МАСТЕР-КЛАСС",
-//       description: "МАСТЕР-КЛАСС",
-//     },
-//     {
-//       number: "2",
-//       title: "МАСТЕР-КЛАСС",
-//       description: "МАСТЕР-КЛАСС",
-//     },
-//     {
-//       number: "2",
-//       title: "МАСТЕР-КЛАСС",
-//       description: "МАСТЕР-КЛАСС",
-//     },
-//     {
-//       number: "3",
-//       title: "ВЕЧЕР НОСТАЛЬГИИ",
-//       description: "ВЕЧЕР НОСТАЛЬГИИ",
-//     },
-//     {
-//       number: "3",
-//       title: "ВЕЧЕР НОСТАЛЬГИИ",
-//       description: "ВЕЧЕР НОСТАЛЬГИИ",
-//     },
-//     {
-//       number: "3",
-//       title: "ВЕЧЕР НОСТАЛЬГИИ",
-//       description: "ВЕЧЕР НОСТАЛЬГИИ",
-//     },
-//     {
-//       number: "3",
-//       title: "ВЕЧЕР НОСТАЛЬГИИ",
-//       description: "ВЕЧЕР НОСТАЛЬГИИ",
-//     },
-//   ];
-
-//   function updateCarousel() {
-//     items.forEach((item, index) => {
-//       item.classList.remove("prev2", "next2", "active2");
-//       if (index === currentIndex) {
-//         item.classList.add("active2");
-//       } else if (index === (currentIndex - 1 + items.length) % items.length) {
-//         item.classList.add("prev2");
-//       } else if (index === (currentIndex + 1) % items.length) {
-//         item.classList.add("next2");
-//       }
-//     });
-
-//     // Обновление текста и номера
-//     carouselNumber.textContent = carouselData[currentIndex].number;
-//     const h1Element = carouselContent.querySelector("h1");
-//     h1Element.textContent = carouselData[currentIndex].title;
-//     const pElement = carouselContent.querySelector("p");
-//     pElement.innerHTML = carouselData[currentIndex].description;
-
-//     // Изменение ширины блока h1 для number 2
-//     if (carouselData[currentIndex].number === "2") {
-//       h1Element.style.width = "30%";
-//       h1Element.style.marginLeft = "36%";
-//       pElement.style.marginTop = "24%";
-//     } else {
-//       h1Element.style.width = "50%";
-//       h1Element.style.marginLeft = "25%";
-//       pElement.style.marginTop = "20%";
-//     }
-
-//     if (carouselData[currentIndex].number === "5") {
-//       pElement.style.width = "8%";
-//       pElement.style.padding = "0%";
-//       pElement.style.marginLeft = "46.5%";
-//     } else if (carouselData[currentIndex].number === "2") {
-//       pElement.style.padding = "0%";
-//     } else {
-//       pElement.style.width = "50%";
-//       pElement.style.marginLeft = "25%";
-//       pElement.style.padding = "1%";
-//     }
-
-//     if (carouselData[currentIndex].number === "3") {
-//       pElement.style.width = "38%";
-//       pElement.style.marginLeft = "31%";
-//     }
-//   }
-
-//   nextButton.addEventListener("click", () => {
-//     currentIndex = (currentIndex + 1) % items.length;
-//     updateCarousel();
-//   });
-
-//   prevButton.addEventListener("click", () => {
-//     currentIndex = (currentIndex - 1 + items.length) % items.length;
-//     updateCarousel();
-//   });
-
-//   updateCarousel();
-// });
